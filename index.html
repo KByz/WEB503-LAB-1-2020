@@ -11,17 +11,54 @@
     <link rel="stylesheet" href="index.css"/>
     </head>
 <body>
-    <h1 class "first_tag"> This si the body of the page</h1>
+    <h1 class="first_tag"> This si the body of the page</h1>
     <h1 id="second_tag"> This is the second tag</h1>
-<audio></audio>
-<img></img>    
-<embed></embed>
-<portal></portal>
-
-
-    
-
-
-
-
+<audio>
+    controls
+    <source> = "/media/cc0-audio/t-rex-roar.mp3">
+    <code>audio</code>element.
+</audio>
+<img class="image" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+alt="google logo"></img>    
+<embed type="video/webm" 
+src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+autoplay="false" 
+loop="false" 
+muted="true" 
+controls="true"
+width="320" 
+height="240"></embed>
+<portal id="exmpprtl"
+src="https://www.google.com"></portal>
+<object type= "application/pdf"
+data="/media/cc0-pdf/cc0-pdf.pdf"
+width="300"
+height="30=80"></object>
+<map name= "infographic"
+<area shape="poly"
+coords="130,147,200,107,254,219,130,228"
+href="https://developer.mozilla.org/docs/Web/HTML"
+target="_blank" alt="HTML" />
+<area shape="poly" coords="130,147,130,228,6,219,59,107"
+href="https://developer.mozilla.org/docs/Web/CSS"
+target="_blank" alt="CSS" />
+<area shape="poly" coords="130,147,200,107,130,4,59,107"
+href="https://developer.mozilla.org/docs/Web/JavaScript"
+target="_blank" alt="JavaScript" /></map>
+<img usemap="#infographic" src="/media/examples/mdn-info2.png" alt="MDN infographic" /></map>
+<iframe id="inlineframeexample"
+title="Inline Frame Example"
+Width="250"
+Height="250"
+src="https://www.google.com"></iframe>
+<video controls width="300">
+<source= "/media/cc0-webm/crowd_surf.webm">
+type="video/webm"></video>
+<button class="button" onclick="alert('Brutal Hails!')">Click Me</button>
+<fieldset>
+<legend>Choose your favourite genre of metal</legend>
+<input type="radio" id="Death Metal" name="Genre"><label for="Death Metal">Death Metal</label><br/>
+<input type="radio" id="Black Metal" name="Genre"><label for="Black Metal">Black Metal</label><br/>
+<input type="radio" id="Thrash Metal" name="Genre"><label for="Thrash Metal">Thrash Metal</label>
+</fieldset>
 </html>
